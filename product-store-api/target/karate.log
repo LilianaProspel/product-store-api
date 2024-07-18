@@ -1,0 +1,1382 @@
+19:03:00.761 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:03:00.777 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9 - ^Create a new user account$
+19:03:01.215 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:03:01.234 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:4
+* url urlBase
+>>>> js failed:
+01: urlBase
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "urlBase" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/store/login/login.feature:4
+19:03:01.550 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:04:44.748 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:04:44.750 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261084750
+19:04:44.765 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9 - ^Create a new user account$
+19:04:45.282 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:04:45.336 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:6
+* def randomUser = karate.randomString(10)
+>>>> js failed:
+01: karate.randomString(10)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: invokeMember (randomString) on com.intuit.karate.core.ScenarioBridge@4ba380c7 failed due to: Unknown identifier: randomString
+- <js>.:program(Unnamed:1)
+
+src/test/java/store/login/login.feature:6
+19:04:45.666 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:05:02.902 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:05:02.904 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261102903
+19:05:02.918 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9 - ^Create a new user account$
+19:05:03.329 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:05:03.373 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:6
+* def randomUser = karate.randomString(10)
+>>>> js failed:
+01: karate.randomString(10)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: invokeMember (randomString) on com.intuit.karate.core.ScenarioBridge@4ba380c7 failed due to: Unknown identifier: randomString
+- <js>.:program(Unnamed:1)
+
+src/test/java/store/login/login.feature:6
+19:05:03.637 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:07:11.900 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:07:11.902 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261231902
+19:07:11.921 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 10 - ^Create a new user account$
+19:07:12.316 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:07:12.362 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:7
+* def randomUser = karate.call('randomString', 10)
+>>>> js failed:
+01: karate.call('randomString', 10)
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /Users/wilson.tapia/Documents/rappi/projects/product-store-api/src/test/java/store/login/randomString (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:103)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:76)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:149)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:140)
+- <js>.:program(Unnamed:1)
+
+src/test/java/store/login/login.feature:7
+19:07:12.625 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:08:04.155 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:08:04.157 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261284157
+19:08:04.642 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:08:04.699 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:7
+* def randomUser = karate.call('randomString', 10)
+>>>> js failed:
+01: karate.call('randomString', 10)
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /Users/wilson.tapia/Documents/rappi/projects/product-store-api/src/test/java/store/login/randomString (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:103)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:76)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:149)
+- com.intuit.karate.core.ScenarioBridge.call(ScenarioBridge.java:140)
+- <js>.:program(Unnamed:1)
+
+src/test/java/store/login/login.feature:7
+19:08:04.986 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:09:04.983 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:09:04.985 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261344985
+19:09:05.513 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:09:05.574 [main] INFO  com.intuit.karate - [print] {
+  "username": "#(randomUser)",
+  "password": "#(randomPassword)"
+}
+ 
+19:09:05.704 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:09:06.412 [main] DEBUG com.intuit.karate - response time in milliseconds: 706
+1 < 411
+1 < Content-Type: text/html; charset=UTF-8
+1 < Referrer-Policy: no-referrer
+1 < Content-Length: 1564
+1 < Date: Thu, 18 Jul 2024 00:09:06 GMT
+1 < X-Google-GFE-Backend-Request-Cost: 37.185676742127292
+1 < X-Google-GFE-Load-Report: utilization_percent: 37.185677 queries_per_second: 11390 errors_per_second: 0
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 411 (Length Required)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>411.</b> <ins>That’s an error.</ins>
+  <p>POST requests require a <code>Content-length</code> header.  <ins>That’s all we know.</ins>
+
+19:09:06.413 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:16
+Then status 200
+status code was: 411, expected: 200, response time in milliseconds: 706, url: https://api.demoblaze.com/signup, response: 
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 411 (Length Required)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>411.</b> <ins>That’s an error.</ins>
+  <p>POST requests require a <code>Content-length</code> header.  <ins>That’s all we know.</ins>
+
+src/test/java/store/login/login.feature:16
+19:09:06.670 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:10:35.386 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:10:35.388 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261435388
+19:10:35.852 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:10:35.936 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:12
+And set loginBody.username = #(randomUser)
+>>>> js failed:
+01: #(randomUser)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:0 Expected an operand but found error
+#(randomUser)
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:121)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:117)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1171)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.set(ScenarioEngine.java:1559)
+- com.intuit.karate.core.ScenarioEngine.set(ScenarioEngine.java:192)
+
+src/test/java/store/login/login.feature:12
+19:10:36.264 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:11:36.942 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:11:36.945 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261496945
+19:11:37.456 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:11:37.519 [main] INFO  com.intuit.karate - [print] {
+  "username": "{randomUser}",
+  "password": "{randomPassword}"
+}
+ 
+19:11:37.654 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:11:38.319 [main] DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 411
+1 < Content-Type: text/html; charset=UTF-8
+1 < Referrer-Policy: no-referrer
+1 < Content-Length: 1564
+1 < Date: Thu, 18 Jul 2024 00:11:38 GMT
+1 < X-Google-GFE-Backend-Request-Cost: 37.007267515707561
+1 < X-Google-GFE-Load-Report: utilization_percent: 37.007267 queries_per_second: 11273 errors_per_second: 0
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 411 (Length Required)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>411.</b> <ins>That’s an error.</ins>
+  <p>POST requests require a <code>Content-length</code> header.  <ins>That’s all we know.</ins>
+
+19:11:38.321 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:16
+Then status 200
+status code was: 411, expected: 200, response time in milliseconds: 664, url: https://api.demoblaze.com/signup, response: 
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 411 (Length Required)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>411.</b> <ins>That’s an error.</ins>
+  <p>POST requests require a <code>Content-length</code> header.  <ins>That’s all we know.</ins>
+
+src/test/java/store/login/login.feature:16
+19:11:38.584 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:13:50.571 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:13:50.573 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261630573
+19:13:51.072 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:13:51.145 [main] INFO  com.intuit.karate - [print] {
+  "username": "MeZ6H98KW9",
+  "password": "fx67oUZUFf"
+}
+ 
+19:13:51.262 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:13:51.939 [main] DEBUG com.intuit.karate - response time in milliseconds: 676
+1 < 411
+1 < Content-Type: text/html; charset=UTF-8
+1 < Referrer-Policy: no-referrer
+1 < Content-Length: 1564
+1 < Date: Thu, 18 Jul 2024 00:13:51 GMT
+1 < X-Google-GFE-Backend-Request-Cost: 38.046697682533882
+1 < X-Google-GFE-Load-Report: utilization_percent: 38.0467 queries_per_second: 11660 errors_per_second: 0
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 411 (Length Required)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>411.</b> <ins>That’s an error.</ins>
+  <p>POST requests require a <code>Content-length</code> header.  <ins>That’s all we know.</ins>
+
+19:13:51.941 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:16
+Then status 200
+status code was: 411, expected: 200, response time in milliseconds: 676, url: https://api.demoblaze.com/signup, response: 
+<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 411 (Length Required)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>411.</b> <ins>That’s an error.</ins>
+  <p>POST requests require a <code>Content-length</code> header.  <ins>That’s all we know.</ins>
+
+src/test/java/store/login/login.feature:16
+19:13:52.202 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:15:17.315 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:15:17.317 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261717317
+19:15:17.721 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:15:17.788 [main] INFO  com.intuit.karate - [print] {
+  "username": "SSFPcogY1B",
+  "password": "vdPu3Ss50r"
+}
+ 
+19:15:17.940 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"vdPu3Ss50r","username":"SSFPcogY1B"}
+
+19:15:18.553 [main] DEBUG com.intuit.karate - response time in milliseconds: 611
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: 40d8d0b9a9f510d17f138474722c1030
+1 < Date: Thu, 18 Jul 2024 00:15:18 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:15:18.816 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:18:20.276 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:18:20.278 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721261900278
+19:18:20.679 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:18:20.739 [main] INFO  com.intuit.karate - [print] {
+  "username": "Z0owzbVElU",
+  "password": "eB0kWHT41X"
+}
+ 
+19:18:20.871 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"eB0kWHT41X","username":"Z0owzbVElU"}
+
+19:18:21.679 [main] DEBUG com.intuit.karate - response time in milliseconds: 806
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: e0ed09220aee4c0a410ded9fe9dec8e1
+1 < Date: Thu, 18 Jul 2024 00:18:21 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:18:21.931 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:24:47.040 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:24:47.042 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721262287042
+19:24:47.057 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19 - ^Create a existing user account$
+19:24:47.514 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:24:47.567 [main] INFO  com.intuit.karate - [print] {
+  "username": "test",
+  "password": "test"
+}
+ 
+19:24:47.702 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 37
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"test","username":"test"}
+
+19:24:48.405 [main] DEBUG com.intuit.karate - response time in milliseconds: 699
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 7ef3477ac2b72a647467d5c7483eed52
+1 < Date: Thu, 18 Jul 2024 00:24:48 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+19:24:48.406 [main] WARN  com.intuit.karate - over-writing existing variable 'response' with new value: response
+19:24:48.670 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:25:09.210 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:25:09.212 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721262309212
+19:25:09.605 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:25:09.655 [main] INFO  com.intuit.karate - [print] {
+  "username": "RI467f8jxc",
+  "password": "bsE30SaarM"
+}
+ 
+19:25:09.789 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"bsE30SaarM","username":"RI467f8jxc"}
+
+19:25:10.319 [main] DEBUG com.intuit.karate - response time in milliseconds: 527
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: 40985f48dfa17a98a9754fc51d790faa
+1 < Date: Thu, 18 Jul 2024 00:25:10 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:25:10.329 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:25:10.336 [main] INFO  com.intuit.karate - [print] {
+  "username": "qfPv3oGnLm",
+  "password": "RpdgwF7n1h"
+}
+ 
+19:25:10.337 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"RpdgwF7n1h","username":"qfPv3oGnLm"}
+
+19:25:10.760 [main] DEBUG com.intuit.karate - response time in milliseconds: 422
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: 831560c348095ec009fb2260c8ae5c5b
+1 < Date: Thu, 18 Jul 2024 00:25:10 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:25:10.765 [main] WARN  com.intuit.karate - over-writing existing variable 'response' with new value: response
+19:25:10.780 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:28
+* match response.errorMessage == 'This user already exist.'
+match failed: EQUALS
+  $ | data types don't match (NULL:STRING)
+  null
+  'This user already exist.'
+
+src/test/java/store/login/login.feature:28
+19:25:11.066 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:25:36.911 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:25:36.914 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721262336914
+19:25:36.930 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19 - ^Create a existing user account$
+19:25:37.336 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:25:37.385 [main] INFO  com.intuit.karate - [print] {
+  "username": "dkgynLfop6",
+  "password": "NxhGamR5dB"
+}
+ 
+19:25:37.514 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"NxhGamR5dB","username":"dkgynLfop6"}
+
+19:25:37.996 [main] DEBUG com.intuit.karate - response time in milliseconds: 480
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: ece11d2f4702fce5fbca0e0625400c31
+1 < Date: Thu, 18 Jul 2024 00:25:38 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:25:37.998 [main] WARN  com.intuit.karate - over-writing existing variable 'response' with new value: response
+19:25:38.010 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:28
+* match response.errorMessage == 'This user already exist.'
+match failed: EQUALS
+  $ | data types don't match (NULL:STRING)
+  null
+  'This user already exist.'
+
+src/test/java/store/login/login.feature:28
+19:25:38.265 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:26:18.914 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:26:18.916 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721262378916
+19:26:18.934 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19 - ^Create a existing user account$
+19:26:19.310 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:26:19.363 [main] INFO  com.intuit.karate - [print] {
+  "username": "cP3stkfEa2",
+  "password": "8U39oIfpl4"
+}
+ 
+19:26:19.504 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"8U39oIfpl4","username":"cP3stkfEa2"}
+
+19:26:20.145 [main] DEBUG com.intuit.karate - response time in milliseconds: 638
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: ec4e5f2c85c7729caed5a202119f57f5
+1 < Date: Thu, 18 Jul 2024 00:26:20 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:26:20.147 [main] WARN  com.intuit.karate - over-writing existing variable 'response' with new value: response
+19:26:20.155 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:28
+* match response == 'This user already exist.'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  '""
+'
+  'This user already exist.'
+
+src/test/java/store/login/login.feature:28
+19:26:20.422 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:27:05.628 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:27:05.630 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721262425630
+19:27:06.042 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:27:06.096 [main] INFO  com.intuit.karate - [print] {
+  "username": "V5ycQHzg4y",
+  "password": "dU41dO6tp1"
+}
+ 
+19:27:06.238 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"dU41dO6tp1","username":"V5ycQHzg4y"}
+
+19:27:06.879 [main] DEBUG com.intuit.karate - response time in milliseconds: 639
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: f320eae024b13086a30295b88535b215
+1 < Date: Thu, 18 Jul 2024 00:27:06 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:27:06.890 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:27:06.900 [main] INFO  com.intuit.karate - [print] {
+  "username": "tNidiTosEc",
+  "password": "RJa3Ts10u9"
+}
+ 
+19:27:06.901 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"RJa3Ts10u9","username":"tNidiTosEc"}
+
+19:27:07.323 [main] DEBUG com.intuit.karate - response time in milliseconds: 422
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: ef3bc1158b5eec22df88acbfc517203f
+1 < Date: Thu, 18 Jul 2024 00:27:07 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:27:07.325 [main] WARN  com.intuit.karate - over-writing existing variable 'response' with new value: data
+19:27:07.337 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:27
+* def response = data
+>>>> js failed:
+01: data
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "data" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/store/login/login.feature:27
+19:27:07.624 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:27:58.833 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:27:58.836 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721262478836
+19:27:59.338 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:27:59.407 [main] INFO  com.intuit.karate - [print] {
+  "username": "gIjLTRV1iu",
+  "password": "8TbmiGnO1g"
+}
+ 
+19:27:59.550 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"8TbmiGnO1g","username":"gIjLTRV1iu"}
+
+19:28:00.061 [main] DEBUG com.intuit.karate - response time in milliseconds: 510
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: c7fc1b69ec85f53d00321004a5c7572c
+1 < Date: Thu, 18 Jul 2024 00:28:00 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:28:00.067 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:28:00.078 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:20
+And set loginBody.password = 'test
+>>>> js failed:
+01: 'test
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:5 Missing close quote
+'test
+     ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:121)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:117)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1171)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.set(ScenarioEngine.java:1559)
+- com.intuit.karate.core.ScenarioEngine.set(ScenarioEngine.java:192)
+
+src/test/java/store/login/login.feature:20
+19:28:00.369 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:28:25.555 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:28:25.558 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721262505557
+19:28:25.970 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:28:26.024 [main] INFO  com.intuit.karate - [print] {
+  "username": "YC8PEmyEvj",
+  "password": "2oew1DPUFl"
+}
+ 
+19:28:26.161 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"2oew1DPUFl","username":"YC8PEmyEvj"}
+
+19:28:26.810 [main] DEBUG com.intuit.karate - response time in milliseconds: 647
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: 381672d2f56b37fc806ba08dd72c9543;o=1
+1 < Date: Thu, 18 Jul 2024 00:28:26 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:28:26.819 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:28:26.823 [main] INFO  com.intuit.karate - [print] {
+  "username": "test",
+  "password": "test"
+}
+ 
+19:28:26.825 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 37
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"test","username":"test"}
+
+19:28:27.216 [main] DEBUG com.intuit.karate - response time in milliseconds: 391
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: c006f867de1daebe5e985dce495e3213
+1 < Date: Thu, 18 Jul 2024 00:28:27 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+19:28:27.217 [main] WARN  com.intuit.karate - over-writing existing variable 'response' with new value: data
+19:28:27.226 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:25
+* def response = data
+>>>> js failed:
+01: data
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "data" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/store/login/login.feature:25
+19:28:27.508 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:29:22.266 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:29:22.269 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721262562269
+19:29:22.283 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17 - ^Create a existing user account$
+19:29:22.684 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:22.728 [main] INFO  com.intuit.karate - [print] {
+  "username": "test",
+  "password": "test"
+}
+ 
+19:29:22.853 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 37
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"test","username":"test"}
+
+19:29:23.328 [main] DEBUG com.intuit.karate - response time in milliseconds: 473
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 9c1a8ebeef26065819e155667eb31bb1
+1 < Date: Thu, 18 Jul 2024 00:29:23 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+19:29:23.330 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "This user already exist."
+}
+ 
+19:29:23.580 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:38:43.883 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:38:43.885 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721263123885
+19:38:43.899 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Login with valid credentials$
+19:38:44.390 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:38:44.417 [main] ERROR com.intuit.karate - src/test/java/store/login/login.feature:5
+* def loginBody = read ('signup.json')
+>>>> js failed:
+01: read ('signup.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /Users/wilson.tapia/Documents/rappi/projects/product-store-api/src/test/java/store/login/signup.json (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:103)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:53)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:118)
+- <js>.:program(Unnamed:1)
+
+src/test/java/store/login/login.feature:5
+19:38:44.711 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:38:56.471 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:38:56.473 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721263136473
+19:38:56.487 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8 - ^Login with valid credentials$
+19:38:56.956 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:38:57.019 [main] INFO  com.intuit.karate - [print] {
+  "username": "LilianaEstefania",
+  "password": "ProspelQuishpe"
+}
+ 
+19:38:57.181 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"ProspelQuishpe","username":"LilianaEstefania"}
+
+19:38:57.845 [main] DEBUG com.intuit.karate - response time in milliseconds: 663
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: c3ab19054edae363368e6eee66cefd06
+1 < Date: Thu, 18 Jul 2024 00:38:57 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjM="
+
+19:38:57.846 [main] INFO  com.intuit.karate - [print] "Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjM="
+ 
+19:38:58.154 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:39:57.363 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:39:57.366 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1721263197365
+19:39:57.768 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:57.812 [main] INFO  com.intuit.karate - [print] {
+  "username": "LilianaEstefania",
+  "password": "ProspelQuishpe"
+}
+ 
+19:39:57.952 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"ProspelQuishpe","username":"LilianaEstefania"}
+
+19:39:58.569 [main] DEBUG com.intuit.karate - response time in milliseconds: 616
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 7374df1e997cf148efa755f9ad6918c6
+1 < Date: Thu, 18 Jul 2024 00:39:58 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjM="
+
+19:39:58.570 [main] INFO  com.intuit.karate - [print] "Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjM="
+ 
+19:39:58.579 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:58.592 [main] INFO  com.intuit.karate - [print] {
+  "username": "FYLLDNbfAx",
+  "password": "9JriUwj9ac"
+}
+ 
+19:39:58.593 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"9JriUwj9ac","username":"FYLLDNbfAx"}
+
+19:39:58.986 [main] DEBUG com.intuit.karate - response time in milliseconds: 393
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: f65f55ef528335e8c0a7a3df84f3a4af
+1 < Date: Thu, 18 Jul 2024 00:39:59 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+19:39:58.988 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "User does not exist."
+}
+ 
+19:39:59.269 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/store/login/login.feature
+19:42:10.214 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:42:10.582 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:10.628 [main] INFO  com.intuit.karate - [print] {
+  "username": "LilianaEstefania",
+  "password": "ProspelQuishpe"
+}
+ 
+19:42:10.757 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"ProspelQuishpe","username":"LilianaEstefania"}
+
+19:42:11.402 [main] DEBUG com.intuit.karate - response time in milliseconds: 643
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 8687274923ac788ecdb263119dcb5b4d
+1 < Date: Thu, 18 Jul 2024 00:42:11 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjM="
+
+19:42:11.406 [main] INFO  com.intuit.karate - [print] "Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjM="
+ 
+19:42:11.426 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:11.443 [main] INFO  com.intuit.karate - [print] {
+  "username": "IIzxAyvFmq",
+  "password": "eRWz442YXQ"
+}
+ 
+19:42:11.444 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"eRWz442YXQ","username":"IIzxAyvFmq"}
+
+19:42:11.872 [main] DEBUG com.intuit.karate - response time in milliseconds: 428
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 84ee7efa058e6fd4daa98852041d070e
+1 < Date: Thu, 18 Jul 2024 00:42:11 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+19:42:11.874 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "User does not exist."
+}
+ 
+19:42:12.169 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:12.173 [main] INFO  com.intuit.karate - [print] {
+  "username": "piZQUfdLAZ",
+  "password": "JHUOuFSVGe"
+}
+ 
+19:42:12.174 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"JHUOuFSVGe","username":"piZQUfdLAZ"}
+
+19:42:12.627 [main] DEBUG com.intuit.karate - response time in milliseconds: 453
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: af33d551c679cb31333a26ac6ebfaa12
+1 < Date: Thu, 18 Jul 2024 00:42:12 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+19:42:12.634 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:42:12.636 [main] INFO  com.intuit.karate - [print] {
+  "username": "test",
+  "password": "test"
+}
+ 
+19:42:12.636 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 37
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"test","username":"test"}
+
+19:42:12.999 [main] DEBUG com.intuit.karate - response time in milliseconds: 363
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 5ee12740a41bc7feaef6c3a71aa27193
+1 < Date: Thu, 18 Jul 2024 00:42:13 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+19:42:13.000 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "This user already exist."
+}
+ 
+20:04:30.720 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:04:31.100 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:04:31.146 [main] INFO  com.intuit.karate - [print] {
+  "username": "LilianaEstefania",
+  "password": "ProspelQuishpe"
+}
+ 
+20:04:31.277 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"ProspelQuishpe","username":"LilianaEstefania"}
+
+20:04:32.017 [main] DEBUG com.intuit.karate - response time in milliseconds: 738
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 4e74e37a4d13a72a53a2fb2071fb6b4a
+1 < Date: Thu, 18 Jul 2024 01:04:32 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjQ="
+
+20:04:32.022 [main] INFO  com.intuit.karate - [print] "Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjQ="
+ 
+20:04:32.040 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:04:32.056 [main] INFO  com.intuit.karate - [print] {
+  "username": "qBSZCwJCNI",
+  "password": "oLIIiY6Wo7"
+}
+ 
+20:04:32.057 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"oLIIiY6Wo7","username":"qBSZCwJCNI"}
+
+20:04:32.474 [main] DEBUG com.intuit.karate - response time in milliseconds: 416
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: daf49c72d754a78669baf35be9abf053
+1 < Date: Thu, 18 Jul 2024 01:04:32 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+20:04:32.477 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "User does not exist."
+}
+ 
+20:04:32.775 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:04:32.777 [main] INFO  com.intuit.karate - [print] {
+  "username": "s6XmuQY0Y6",
+  "password": "VRGOgk5iNl"
+}
+ 
+20:04:32.778 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"VRGOgk5iNl","username":"s6XmuQY0Y6"}
+
+20:04:33.261 [main] DEBUG com.intuit.karate - response time in milliseconds: 483
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: 01aa452acf3c2821c31596db66717845
+1 < Date: Thu, 18 Jul 2024 01:04:33 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+20:04:33.270 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:04:33.271 [main] INFO  com.intuit.karate - [print] {
+  "username": "test",
+  "password": "test"
+}
+ 
+20:04:33.272 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 37
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"test","username":"test"}
+
+20:04:33.707 [main] DEBUG com.intuit.karate - response time in milliseconds: 435
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: e9abd1e49a10a5704aa5eae1f06a2d2c
+1 < Date: Thu, 18 Jul 2024 01:04:33 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+20:04:33.708 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "This user already exist."
+}
+ 
+20:05:58.383 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:05:58.839 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:05:58.898 [main] INFO  com.intuit.karate - [print] {
+  "username": "LilianaEstefania",
+  "password": "ProspelQuishpe"
+}
+ 
+20:05:59.028 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"ProspelQuishpe","username":"LilianaEstefania"}
+
+20:05:59.636 [main] DEBUG com.intuit.karate - response time in milliseconds: 605
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 446de37d62534092a069db597858c858
+1 < Date: Thu, 18 Jul 2024 01:05:59 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjQ="
+
+20:05:59.640 [main] INFO  com.intuit.karate - [print] "Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjQ="
+ 
+20:05:59.655 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:05:59.668 [main] INFO  com.intuit.karate - [print] {
+  "username": "qjCbpCcGyJ",
+  "password": "Hm6uOyEEYy"
+}
+ 
+20:05:59.669 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"Hm6uOyEEYy","username":"qjCbpCcGyJ"}
+
+20:06:00.059 [main] DEBUG com.intuit.karate - response time in milliseconds: 390
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 44ee3d10ec12ebee1de3e019c09849d9
+1 < Date: Thu, 18 Jul 2024 01:06:00 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+20:06:00.062 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "User does not exist."
+}
+ 
+20:06:00.337 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:06:00.340 [main] INFO  com.intuit.karate - [print] {
+  "username": "tLIb1CPY4d",
+  "password": "jhsJA6i2nD"
+}
+ 
+20:06:00.341 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"jhsJA6i2nD","username":"tLIb1CPY4d"}
+
+20:06:00.776 [main] DEBUG com.intuit.karate - response time in milliseconds: 435
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: c50ea3867946fd44900a53e1ef06cfe9
+1 < Date: Thu, 18 Jul 2024 01:06:00 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+20:06:00.786 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:06:00.789 [main] INFO  com.intuit.karate - [print] {
+  "username": "test",
+  "password": "test"
+}
+ 
+20:06:00.791 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 37
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"test","username":"test"}
+
+20:06:01.896 [main] DEBUG com.intuit.karate - response time in milliseconds: 1104
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: d4e7275ccdc479580e2234ce78a35349;o=1
+1 < Date: Thu, 18 Jul 2024 01:06:01 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+20:06:01.898 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "This user already exist."
+}
+ 
+20:11:10.451 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:11:10.827 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:11:10.874 [main] INFO  com.intuit.karate - [print] {
+  "username": "LilianaEstefania",
+  "password": "ProspelQuishpe"
+}
+ 
+20:11:11.015 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"ProspelQuishpe","username":"LilianaEstefania"}
+
+20:11:11.746 [main] DEBUG com.intuit.karate - response time in milliseconds: 729
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 4a1092cec6565fb447709e19935f85e9
+1 < Date: Thu, 18 Jul 2024 01:11:11 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjU="
+
+20:11:11.748 [main] INFO  com.intuit.karate - [print] "Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4NjU="
+ 
+20:11:11.759 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:11:11.770 [main] INFO  com.intuit.karate - [print] {
+  "username": "CWQM0myTvK",
+  "password": "JzPTT5VQGi"
+}
+ 
+20:11:11.771 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"JzPTT5VQGi","username":"CWQM0myTvK"}
+
+20:11:12.181 [main] DEBUG com.intuit.karate - response time in milliseconds: 410
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 295246dcd627ffde20f7c2ebd858a0bd
+1 < Date: Thu, 18 Jul 2024 01:11:12 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+20:11:12.183 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "User does not exist."
+}
+ 
+20:11:12.529 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:11:12.532 [main] INFO  com.intuit.karate - [print] {
+  "username": "y6TW3c9M2O",
+  "password": "pE84B2XRlO"
+}
+ 
+20:11:12.533 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"pE84B2XRlO","username":"y6TW3c9M2O"}
+
+20:11:13.120 [main] DEBUG com.intuit.karate - response time in milliseconds: 587
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: ad1207f2e7d3ecaaa1ad90fbab7c06d3
+1 < Date: Thu, 18 Jul 2024 01:11:13 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+20:11:13.130 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:11:13.134 [main] INFO  com.intuit.karate - [print] {
+  "username": "test",
+  "password": "test"
+}
+ 
+20:11:13.135 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 37
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"test","username":"test"}
+
+20:11:13.720 [main] DEBUG com.intuit.karate - response time in milliseconds: 585
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 9d280ffe8a7756ab21107a3485ad8473
+1 < Date: Thu, 18 Jul 2024 01:11:13 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+20:11:13.723 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "This user already exist."
+}
+ 
+03:17:45.826 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+03:17:46.638 [main] INFO  com.intuit.karate - karate.env system property was: null 
+03:17:46.739 [main] INFO  com.intuit.karate - [print] {
+  "username": "LilianaEstefania",
+  "password": "ProspelQuishpe"
+}
+ 
+03:17:47.131 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"ProspelQuishpe","username":"LilianaEstefania"}
+
+03:17:47.909 [main] DEBUG com.intuit.karate - response time in milliseconds: 777
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 2d42bc43676900d7f25415a7686a6e15
+1 < Date: Thu, 18 Jul 2024 08:17:47 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4OTA="
+
+03:17:47.911 [main] INFO  com.intuit.karate - [print] "Auth_token: TGlsaWFuYUVzdGVmYW5pYTE3MjE4OTA="
+ 
+03:17:47.929 [main] INFO  com.intuit.karate - karate.env system property was: null 
+03:17:47.945 [main] INFO  com.intuit.karate - [print] {
+  "username": "0YUB5ysoXd",
+  "password": "sdm1hwdtSc"
+}
+ 
+03:17:47.945 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"sdm1hwdtSc","username":"0YUB5ysoXd"}
+
+03:17:48.359 [main] DEBUG com.intuit.karate - response time in milliseconds: 414
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 0bc2f5bebbf4b6754409c8292df206e6
+1 < Date: Thu, 18 Jul 2024 08:17:48 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"User does not exist."}
+03:17:48.363 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "User does not exist."
+}
+ 
+03:17:48.851 [main] INFO  com.intuit.karate - karate.env system property was: null 
+03:17:48.855 [main] INFO  com.intuit.karate - [print] {
+  "username": "v7EgV1l1ed",
+  "password": "eL0lj1BgHS"
+}
+ 
+03:17:48.856 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"eL0lj1BgHS","username":"v7EgV1l1ed"}
+
+03:17:49.443 [main] DEBUG com.intuit.karate - response time in milliseconds: 587
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: b0fa5162c5eb482fae8697fedabeaa1f
+1 < Date: Thu, 18 Jul 2024 08:17:49 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+03:17:49.448 [main] INFO  com.intuit.karate - karate.env system property was: null 
+03:17:49.451 [main] INFO  com.intuit.karate - [print] {
+  "username": "test",
+  "password": "test"
+}
+ 
+03:17:49.451 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 37
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.23)
+1 > Accept-Encoding: gzip,deflate
+{"password":"test","username":"test"}
+
+03:17:49.862 [main] DEBUG com.intuit.karate - response time in milliseconds: 410
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: 4707ab91b0c991122c508053e0681230
+1 < Date: Thu, 18 Jul 2024 08:17:49 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+03:17:49.864 [main] INFO  com.intuit.karate - [print] {
+  "errorMessage": "This user already exist."
+}
+ 
